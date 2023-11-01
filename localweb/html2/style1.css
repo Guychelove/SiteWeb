@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|dancing+Script&display=swap');
+
+body{
+	font-family:'Advent pro'sans-serif;
+	paddin:0;
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style-type:none;
+}
+h2{
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:30px;
+	font-size:2em;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+/* ---------------NAVBAR----------------- */
+nav{
+	overflow:hidden;
+	background-color:#FFAE1;
+	position:fixed;
+	width:100%;
+	opacity:0.9;
+}
+header li{
+	float:right;
+	font-size:1.2em;
+
+}
+header li a{
+	text-decoration:none;
+	display:block;
+	text-align:center;
+	padding:18px 16px;
+}
+#logo{
+	font-family:'Dancing Script',cursive;
+	font-weight:bold;
+	float:left;
+}
+/* -------------------- IMAGE PRINCIPALE ------------------- */
+#imagePrincipale{
+	padding-top:60px;
+	background:url(Images/image-principale.JPG) no-repeat fixed 50% 50%;
+	background-size:cover;
+	height:799px;
+}
+h1{
+	font-family:'Dancing Script',cursive;
+	text-align:center;
+	color:blue;
+	font-size:6em;
+	margin-top:100px;
+	text-shadow:1px 3px 2px white;
+}
+#premierTrait{
+	height:5px;
+	width:15%;
+	margin:-3px auto;
+	background-color:black;
+	box-shadow:1px 1px 1px white;	
+}
+h3{
+	text-align:center;
+	color:blue;
+	font-size:3em;
+	text-shadow:1px 3px 2px white;	
+}
+/* -------------- PRESENTATION --------------- */
+#presentation{
+	background-color:#FFFAE1;
+	padding:10px 0px 100px 0;
+}
+#TexteIntro{
+	padding:0px 10%;
+}
+#prestation{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  padding:30px 10px;
+}
+.imagesPrestations h4{
+	font-family:'Dancing Script'cursive;
+	text-align:center;
+	font-size:1.8em;
+	margin:15px;
+	font-weight:300;
+}
+.imagesPrestations img{
+  border-radius:50px;
+  box-shadow:5px 5px 3px 1px rgb(0, 0, 0,0.7);
+}
+.imagesPrestations img:hover{
+	opacity:0.5;
+	text-transform:scale(1.05);
+	transition:0.6s ease-in-out;
+}
+/* -------------- TOURISME -----------------*/
+#tourisme{
+	height:1400px;
+	background-color:#F1F2F6;
+	paddind:1px 2%;
+}
+#toutisme h2{
+	padding-top:60px;
+}
+#ocean{
+	background:url(Images/ocean.jpg);
+}
+#chateau{
+	background:url(Images/chateau.jpg);
+}
+#phare{
+	background:url(Images/phare.jpg);
+}
+#vignoble{
+	background:url(Images/vignes.jpg);
+}
+#tourisme li{
+   margin:50px 80px 0 80px;
+   height:145px;
+   width:45%;
+   max-width:280px;
+   float:left;
+   box-shadow:6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
+#tourisme p{
+	height:45px;
+	width:235px;
+	background-color:#01DF74;
+	float:right;
+	margin:50px -180px 0 0;
+	font-size:1.5em;
+	text-align:center;
+	paddin-top:15px;
+	box-shadow:4px 4px 0 1px rgba(90,161,43,1);
+}
+#tourisme #chatteau, #tourisme
+#vignoble{
+  float:right;
+}
+#chateau p, #vignoble p{
+	float:left;
+	background-color:cyan;
+	margin-left:180px;
+	box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+}
+/
